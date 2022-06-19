@@ -1,132 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<export version="D">
+<export version="E">
   <design>
-    <source>G:\My Drive\Satellite\Payload Computer Board Design\LED_Ring\LED_Ring\LED_Ring.sch</source>
-    <date>12/6/2021 7:38:51 PM</date>
-    <tool>Eeschema (5.1.10)-1</tool>
+    <source>C:\Users\ckkornowski\Documents\GitHub\Foras-Promineo-Camera-LED-Board\Foras Promineo CLR PCB.kicad_sch</source>
+    <date>6/18/2022 9:43:49 PM</date>
+    <tool>Eeschema (6.0.2)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Foras Promineo LED Ring</title>
-        <company/>
-        <rev/>
-        <date/>
-        <source>LED_Ring.sch</source>
+        <company>FRC ROBOTICS TEAM</company>
+        <rev>FM</rev>
+        <date>06/18/2022</date>
+        <source>Foras Promineo CLR PCB.kicad_sch</source>
         <comment number="1" value=""/>
-        <comment number="2" value="Sandusky, Ohio 44870"/>
-        <comment number="3" value="3714 Campbell St"/>
-        <comment number="4" value="Perkins High School"/>
+        <comment number="2" value="SANDUSKY, OHIO 44870"/>
+        <comment number="3" value="3714 CAMPBELL ST"/>
+        <comment number="4" value="PERKINS HIGH SCHOOL"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
       </title_block>
     </sheet>
   </design>
   <components>
-    <comp ref="D3">
-      <value>LED</value>
-      <footprint>ForusPromineo:1212_LED</footprint>
-      <datasheet>https://cdn.samsung.com/led/file/resource/2020/03/Data_Sheet_LM301H_ONE_Rev.2.1.pdf</datasheet>
+    <comp ref="C1">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
       <fields>
-        <field name="Description">LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)</field>
-        <field name="Manufacturer">Samsung Semiconductor, Inc.</field>
-        <field name="Manufacturer Part Number">SPMWHD32AMH1XAH0S0</field>
+        <field name="Description">CAP CER 1000PF 10V X7R 0603</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part Number">0603ZC102KAT2A</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">1510-SPMWHD32AMH1XAH0S0CT-ND</field>
+        <field name="Supplier Part Number">478-0603ZC102KAT2ACT-ND</field>
       </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Description" value="CAP CER 1000PF 10V X7R 0603"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part Number" value="0603ZC102KAT2A"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="478-0603ZC102KAT2ACT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>615F82A1</tstamp>
+      <tstamps>00000000-0000-0000-0000-0000616e7a8a</tstamps>
     </comp>
-    <comp ref="D1">
-      <value>LED</value>
-      <footprint>ForusPromineo:1212_LED</footprint>
-      <datasheet>https://cdn.samsung.com/led/file/resource/2020/03/Data_Sheet_LM301H_ONE_Rev.2.1.pdf</datasheet>
+    <comp ref="C2">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
       <fields>
-        <field name="Description">LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)</field>
-        <field name="Manufacturer">Samsung Semiconductor, Inc.</field>
-        <field name="Manufacturer Part Number">SPMWHD32AMH1XAH0S0</field>
+        <field name="Description">CAP CER 1000PF 10V X7R 0603</field>
+        <field name="Manufacturer">KYOCERA AVX</field>
+        <field name="Manufacturer Part Number">0603ZC102KAT2A</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">1510-SPMWHD32AMH1XAH0S0CT-ND</field>
+        <field name="Supplier Part Number">478-0603ZC102KAT2ACT-ND</field>
       </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Description" value="CAP CER 1000PF 10V X7R 0603"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part Number" value="0603ZC102KAT2A"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="478-0603ZC102KAT2ACT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>615F7D8F</tstamp>
-    </comp>
-    <comp ref="D2">
-      <value>LED</value>
-      <footprint>ForusPromineo:1212_LED</footprint>
-      <datasheet>https://cdn.samsung.com/led/file/resource/2020/03/Data_Sheet_LM301H_ONE_Rev.2.1.pdf</datasheet>
-      <fields>
-        <field name="Description">LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)</field>
-        <field name="Manufacturer">Samsung Semiconductor, Inc.</field>
-        <field name="Manufacturer Part Number">SPMWHD32AMH1XAH0S0</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">1510-SPMWHD32AMH1XAH0S0CT-ND</field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>615DF89B</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>100r</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/rohm-semiconductor/SDR03EZPJ101/9674981</datasheet>
-      <fields>
-        <field name="Description">RES SMD 100 OHM 5% 0.3W 0603</field>
-        <field name="Manufacturer">Rohm Semiconductor</field>
-        <field name="Manufacturer Part Number">SDR03EZPJ101</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">511-1731-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6168FC0E</tstamp>
-    </comp>
-    <comp ref="D6">
-      <value>LED</value>
-      <footprint>ForusPromineo:1212_LED</footprint>
-      <datasheet>https://cdn.samsung.com/led/file/resource/2020/03/Data_Sheet_LM301H_ONE_Rev.2.1.pdf</datasheet>
-      <fields>
-        <field name="Description">LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)</field>
-        <field name="Manufacturer">Samsung Semiconductor, Inc.</field>
-        <field name="Manufacturer Part Number">SPMWHD32AMH1XAH0S0</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">1510-SPMWHD32AMH1XAH0S0CT-ND</field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6169E044</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>LED</value>
-      <footprint>ForusPromineo:1212_LED</footprint>
-      <datasheet>https://cdn.samsung.com/led/file/resource/2020/03/Data_Sheet_LM301H_ONE_Rev.2.1.pdf</datasheet>
-      <fields>
-        <field name="Description">LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)</field>
-        <field name="Manufacturer">Samsung Semiconductor, Inc.</field>
-        <field name="Manufacturer Part Number">SPMWHD32AMH1XAH0S0</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">1510-SPMWHD32AMH1XAH0S0CT-ND</field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6169E050</tstamp>
-    </comp>
-    <comp ref="D5">
-      <value>LED</value>
-      <footprint>ForusPromineo:1212_LED</footprint>
-      <datasheet>https://cdn.samsung.com/led/file/resource/2020/03/Data_Sheet_LM301H_ONE_Rev.2.1.pdf</datasheet>
-      <fields>
-        <field name="Description">LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)</field>
-        <field name="Manufacturer">Samsung Semiconductor, Inc.</field>
-        <field name="Manufacturer Part Number">SPMWHD32AMH1XAH0S0</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">1510-SPMWHD32AMH1XAH0S0CT-ND</field>
-      </fields>
-      <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6169E056</tstamp>
+      <tstamps>00000000-0000-0000-0000-0000616ee290</tstamps>
     </comp>
     <comp ref="C5">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf</datasheet>
       <fields>
         <field name="Description">CAP CER 10UF 16V X5R 0603</field>
@@ -136,87 +80,19 @@
         <field name="Supplier Part Number">587-3238-1-ND</field>
       </fields>
       <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Description" value="CAP CER 10UF 16V X5R 0603"/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Manufacturer Part Number" value="EMK107BBJ106MA-T"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="587-3238-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>616B56F3</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>100r</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/rohm-semiconductor/SDR03EZPJ101/9674981</datasheet>
-      <fields>
-        <field name="Description">RES SMD 100 OHM 5% 0.3W 0603</field>
-        <field name="Manufacturer">Rohm Semiconductor</field>
-        <field name="Manufacturer Part Number">SDR03EZPJ101</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">511-1731-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>616BD15C</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>100r</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/rohm-semiconductor/SDR03EZPJ101/9674981</datasheet>
-      <fields>
-        <field name="Description">RES SMD 100 OHM 5% 0.3W 0603</field>
-        <field name="Manufacturer">Rohm Semiconductor</field>
-        <field name="Manufacturer Part Number">SDR03EZPJ101</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">511-1731-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>616BD5C1</tstamp>
-    </comp>
-    <comp ref="R8">
-      <value>100r</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/rohm-semiconductor/SDR03EZPJ101/9674981</datasheet>
-      <fields>
-        <field name="Description">RES SMD 100 OHM 5% 0.3W 0603</field>
-        <field name="Manufacturer">Rohm Semiconductor</field>
-        <field name="Manufacturer Part Number">SDR03EZPJ101</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">511-1731-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>616BD8D2</tstamp>
-    </comp>
-    <comp ref="R10">
-      <value>100r</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/rohm-semiconductor/SDR03EZPJ101/9674981</datasheet>
-      <fields>
-        <field name="Description">RES SMD 100 OHM 5% 0.3W 0603</field>
-        <field name="Manufacturer">Rohm Semiconductor</field>
-        <field name="Manufacturer Part Number">SDR03EZPJ101</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">511-1731-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>616BDC3B</tstamp>
-    </comp>
-    <comp ref="R12">
-      <value>100r</value>
-      <footprint>Resistors_SMD:R_0603</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/rohm-semiconductor/SDR03EZPJ101/9674981</datasheet>
-      <fields>
-        <field name="Description">RES SMD 100 OHM 5% 0.3W 0603</field>
-        <field name="Manufacturer">Rohm Semiconductor</field>
-        <field name="Manufacturer Part Number">SDR03EZPJ101</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">511-1731-1-ND</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>616BE07C</tstamp>
+      <tstamps>00000000-0000-0000-0000-0000616b56f3</tstamps>
     </comp>
     <comp ref="C6">
       <value>1n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
       <fields>
         <field name="Description">CAP CER 1000PF 10V X7R 0603</field>
@@ -226,120 +102,181 @@
         <field name="Supplier Part Number">478-0603ZC102KAT2ACT-ND</field>
       </fields>
       <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Description" value="CAP CER 1000PF 10V X7R 0603"/>
+      <property name="Manufacturer" value="KYOCERA AVX"/>
+      <property name="Manufacturer Part Number" value="0603ZC102KAT2A"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="478-0603ZC102KAT2ACT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>616C031A</tstamp>
+      <tstamps>00000000-0000-0000-0000-0000616c031a</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>Foras_Promineo:1212_LED_Pol</footprint>
+      <datasheet>https://cdn.samsung.com/led/file/resource/2020/03/Data_Sheet_LM301H_ONE_Rev.2.1.pdf</datasheet>
+      <fields>
+        <field name="Description">LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)</field>
+        <field name="Manufacturer">Samsung Semiconductor, Inc.</field>
+        <field name="Manufacturer Part Number">SPMWHD32AMH1XAH0S0</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">1510-SPMWHD32AMH1XAH0S0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Description" value="LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)"/>
+      <property name="Manufacturer" value="Samsung Semiconductor, Inc."/>
+      <property name="Manufacturer Part Number" value="SPMWHD32AMH1XAH0S0"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="1510-SPMWHD32AMH1XAH0S0CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000615f7d8f</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>Foras_Promineo:1212_LED_Pol</footprint>
+      <datasheet>https://cdn.samsung.com/led/file/resource/2020/03/Data_Sheet_LM301H_ONE_Rev.2.1.pdf</datasheet>
+      <fields>
+        <field name="Description">LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)</field>
+        <field name="Manufacturer">Samsung Semiconductor, Inc.</field>
+        <field name="Manufacturer Part Number">SPMWHD32AMH1XAH0S0</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">1510-SPMWHD32AMH1XAH0S0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Description" value="LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)"/>
+      <property name="Manufacturer" value="Samsung Semiconductor, Inc."/>
+      <property name="Manufacturer Part Number" value="SPMWHD32AMH1XAH0S0"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="1510-SPMWHD32AMH1XAH0S0CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000615df89b</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>Foras_Promineo_Github_Local:1212_LED_Pol</footprint>
+      <datasheet>https://cdn.samsung.com/led/file/resource/2020/03/Data_Sheet_LM301H_ONE_Rev.2.1.pdf</datasheet>
+      <fields>
+        <field name="Description">LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)</field>
+        <field name="Manufacturer">Samsung Semiconductor, Inc.</field>
+        <field name="Manufacturer Part Number">SPMWHD32AMH1XAH0S0</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">1510-SPMWHD32AMH1XAH0S0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Description" value="LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)"/>
+      <property name="Manufacturer" value="Samsung Semiconductor, Inc."/>
+      <property name="Manufacturer Part Number" value="SPMWHD32AMH1XAH0S0"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="1510-SPMWHD32AMH1XAH0S0CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000615f82a1</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>Foras_Promineo:1212_LED_Pol</footprint>
+      <datasheet>https://cdn.samsung.com/led/file/resource/2020/03/Data_Sheet_LM301H_ONE_Rev.2.1.pdf</datasheet>
+      <fields>
+        <field name="Description">LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)</field>
+        <field name="Manufacturer">Samsung Semiconductor, Inc.</field>
+        <field name="Manufacturer Part Number">SPMWHD32AMH1XAH0S0</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">1510-SPMWHD32AMH1XAH0S0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Description" value="LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)"/>
+      <property name="Manufacturer" value="Samsung Semiconductor, Inc."/>
+      <property name="Manufacturer Part Number" value="SPMWHD32AMH1XAH0S0"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="1510-SPMWHD32AMH1XAH0S0CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006169e050</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>Foras_Promineo:1212_LED_Pol</footprint>
+      <datasheet>https://cdn.samsung.com/led/file/resource/2020/03/Data_Sheet_LM301H_ONE_Rev.2.1.pdf</datasheet>
+      <fields>
+        <field name="Description">LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)</field>
+        <field name="Manufacturer">Samsung Semiconductor, Inc.</field>
+        <field name="Manufacturer Part Number">SPMWHD32AMH1XAH0S0</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">1510-SPMWHD32AMH1XAH0S0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Description" value="LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)"/>
+      <property name="Manufacturer" value="Samsung Semiconductor, Inc."/>
+      <property name="Manufacturer Part Number" value="SPMWHD32AMH1XAH0S0"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="1510-SPMWHD32AMH1XAH0S0CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006169e056</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>Foras_Promineo:1212_LED_Pol</footprint>
+      <datasheet>https://cdn.samsung.com/led/file/resource/2020/03/Data_Sheet_LM301H_ONE_Rev.2.1.pdf</datasheet>
+      <fields>
+        <field name="Description">LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)</field>
+        <field name="Manufacturer">Samsung Semiconductor, Inc.</field>
+        <field name="Manufacturer Part Number">SPMWHD32AMH1XAH0S0</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">1510-SPMWHD32AMH1XAH0S0CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Description" value="LED Lighting series White - 2.75V 65mA 120° 1212 (3030 Metric)"/>
+      <property name="Manufacturer" value="Samsung Semiconductor, Inc."/>
+      <property name="Manufacturer Part Number" value="SPMWHD32AMH1XAH0S0"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="1510-SPMWHD32AMH1XAH0S0CT-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006169e044</tstamps>
     </comp>
     <comp ref="H1">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3.5mm_Pad_Via</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="Description">no part</field>
         <field name="Supplier">Digi-Key</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Description" value="no part"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>616E42A6</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>1n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
-      <fields>
-        <field name="Description">CAP CER 1000PF 10V X7R 0603</field>
-        <field name="Manufacturer">KYOCERA AVX</field>
-        <field name="Manufacturer Part Number">0603ZC102KAT2A</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">478-0603ZC102KAT2ACT-ND</field>
-      </fields>
-      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>616E7A8A</tstamp>
+      <tstamps>00000000-0000-0000-0000-0000616e42a6</tstamps>
     </comp>
     <comp ref="H2">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3.5mm_Pad_Via</footprint>
-      <datasheet>~</datasheet>
       <fields>
         <field name="Description">no part</field>
         <field name="Supplier">Digi-Key</field>
       </fields>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Description" value="no part"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>616EC05A</tstamp>
-    </comp>
-    <comp ref="C2">
-      <value>1n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
-      <fields>
-        <field name="Description">CAP CER 1000PF 10V X7R 0603</field>
-        <field name="Manufacturer">KYOCERA AVX</field>
-        <field name="Manufacturer Part Number">0603ZC102KAT2A</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">478-0603ZC102KAT2ACT-ND</field>
-      </fields>
-      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>616EC066</tstamp>
-    </comp>
-    <comp ref="H3">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.5mm_Pad_Via</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Description">no part</field>
-        <field name="Supplier">Digi-Key</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>616ED3B7</tstamp>
-    </comp>
-    <comp ref="C3">
-      <value>1n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
-      <fields>
-        <field name="Description">CAP CER 1000PF 10V X7R 0603</field>
-        <field name="Manufacturer">KYOCERA AVX</field>
-        <field name="Manufacturer Part Number">0603ZC102KAT2A</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">478-0603ZC102KAT2ACT-ND</field>
-      </fields>
-      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>616ED3C3</tstamp>
-    </comp>
-    <comp ref="H4">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.5mm_Pad_Via</footprint>
-      <datasheet>~</datasheet>
-      <fields>
-        <field name="Description">no part</field>
-        <field name="Supplier">Digi-Key</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>616EE284</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>1n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>https://datasheets.kyocera-avx.com/X7RDielectric.pdf</datasheet>
-      <fields>
-        <field name="Description">CAP CER 1000PF 10V X7R 0603</field>
-        <field name="Manufacturer">KYOCERA AVX</field>
-        <field name="Manufacturer Part Number">0603ZC102KAT2A</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">478-0603ZC102KAT2ACT-ND</field>
-      </fields>
-      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>616EE290</tstamp>
+      <tstamps>00000000-0000-0000-0000-0000616ee284</tstamps>
     </comp>
     <comp ref="J1">
       <value>Conn_01x10_Male</value>
-      <footprint>Connector_Hirose:Hirose_DF13-10P-1.25DSA_1x10_P1.25mm_Vertical</footprint>
+      <footprint>Foras_Promineo:SAMTEC_T1M-05-X-DV</footprint>
       <datasheet>https://www.hirose.com/product/document?clcode=CL0536-0109-0-76&amp;productname=DF13-10P-1.25DSA(76)&amp;series=DF13&amp;documenttype=Catalog&amp;lang=en&amp;documentid=D31687_en</datasheet>
       <fields>
         <field name="Description">CONN HEADER VERT 10POS 1.25MM</field>
@@ -349,8 +286,147 @@
         <field name="Supplier Part Number">H2198-ND</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x10_Male" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Description" value="CONN HEADER VERT 10POS 1.25MM"/>
+      <property name="Manufacturer" value="Hirose Electric Co Ltd"/>
+      <property name="Manufacturer Part Number" value="DF13-10P-1.25DSA"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="H2198-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>6189F8B3</tstamp>
+      <tstamps>00000000-0000-0000-0000-00006189f8b3</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100r</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/rohm-semiconductor/SDR03EZPJ101/9674981</datasheet>
+      <fields>
+        <field name="Description">RES SMD 100 OHM 5% 0.3W 0603</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Manufacturer Part Number">SDR03EZPJ101</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">511-1731-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="RES SMD 100 OHM 5% 0.3W 0603"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Manufacturer Part Number" value="SDR03EZPJ101"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="511-1731-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616bd15c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100r</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/rohm-semiconductor/SDR03EZPJ101/9674981</datasheet>
+      <fields>
+        <field name="Description">RES SMD 100 OHM 5% 0.3W 0603</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Manufacturer Part Number">SDR03EZPJ101</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">511-1731-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="RES SMD 100 OHM 5% 0.3W 0603"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Manufacturer Part Number" value="SDR03EZPJ101"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="511-1731-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616bd5c1</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100r</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/rohm-semiconductor/SDR03EZPJ101/9674981</datasheet>
+      <fields>
+        <field name="Description">RES SMD 100 OHM 5% 0.3W 0603</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Manufacturer Part Number">SDR03EZPJ101</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">511-1731-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="RES SMD 100 OHM 5% 0.3W 0603"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Manufacturer Part Number" value="SDR03EZPJ101"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="511-1731-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006168fc0e</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100r</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/rohm-semiconductor/SDR03EZPJ101/9674981</datasheet>
+      <fields>
+        <field name="Description">RES SMD 100 OHM 5% 0.3W 0603</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Manufacturer Part Number">SDR03EZPJ101</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">511-1731-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="RES SMD 100 OHM 5% 0.3W 0603"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Manufacturer Part Number" value="SDR03EZPJ101"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="511-1731-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616bd8d2</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100r</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/rohm-semiconductor/SDR03EZPJ101/9674981</datasheet>
+      <fields>
+        <field name="Description">RES SMD 100 OHM 5% 0.3W 0603</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Manufacturer Part Number">SDR03EZPJ101</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">511-1731-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="RES SMD 100 OHM 5% 0.3W 0603"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Manufacturer Part Number" value="SDR03EZPJ101"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="511-1731-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616bdc3b</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100r</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/rohm-semiconductor/SDR03EZPJ101/9674981</datasheet>
+      <fields>
+        <field name="Description">RES SMD 100 OHM 5% 0.3W 0603</field>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Manufacturer Part Number">SDR03EZPJ101</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">511-1731-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value="RES SMD 100 OHM 5% 0.3W 0603"/>
+      <property name="Manufacturer" value="Rohm Semiconductor"/>
+      <property name="Manufacturer Part Number" value="SDR03EZPJ101"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier Part Number" value="511-1731-1-ND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000616be07c</tstamps>
     </comp>
   </components>
   <libparts>
@@ -363,6 +439,7 @@
       <fields>
         <field name="Reference">J</field>
         <field name="Value">Conn_01x10_Male</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -388,6 +465,7 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
@@ -403,10 +481,11 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Mechanical" part="MountingHole_Pad">
@@ -418,127 +497,116 @@
       <fields>
         <field name="Reference">H</field>
         <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="input"/>
       </pins>
     </libpart>
     <libpart lib="pspice" part="CAP">
-      <aliases>
-        <alias>C</alias>
-      </aliases>
       <description>Capacitor symbol for simulation only</description>
       <docs>~</docs>
       <fields>
         <field name="Reference">C</field>
         <field name="Value">CAP</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
     </library>
     <library logical="pspice">
-      <uri>C:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/pspice.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="C3" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="J1" pin="3"/>
-      <node ref="J1" pin="4"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C2" pin="2"/>
+    <net code="1" name="/LED_1">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
     </net>
-    <net code="2" name="/LED_6">
-      <node ref="J1" pin="10"/>
-      <node ref="D6" pin="1"/>
+    <net code="2" name="/LED_2">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
     </net>
-    <net code="3" name="/LED_5">
-      <node ref="J1" pin="9"/>
-      <node ref="D5" pin="1"/>
+    <net code="3" name="/LED_3">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
     </net>
     <net code="4" name="/LED_4">
-      <node ref="J1" pin="8"/>
-      <node ref="D4" pin="1"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
     </net>
-    <net code="5" name="/LED_3">
-      <node ref="D3" pin="1"/>
-      <node ref="J1" pin="7"/>
+    <net code="5" name="/LED_5">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
     </net>
-    <net code="6" name="/LED_2">
-      <node ref="J1" pin="6"/>
-      <node ref="D2" pin="1"/>
+    <net code="6" name="/LED_6">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
     </net>
-    <net code="7" name="/LED_1">
-      <node ref="D1" pin="1"/>
-      <node ref="J1" pin="5"/>
+    <net code="7" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(C4-Pad1)">
-      <node ref="H4" pin="1"/>
-      <node ref="C4" pin="1"/>
+    <net code="8" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
     </net>
-    <net code="9" name="Net-(D1-Pad2)">
-      <node ref="R2" pin="1"/>
-      <node ref="D1" pin="2"/>
+    <net code="9" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
     </net>
-    <net code="10" name="Net-(D5-Pad2)">
-      <node ref="R10" pin="1"/>
-      <node ref="D5" pin="2"/>
+    <net code="10" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="11" name="Net-(D4-Pad2)">
-      <node ref="R8" pin="1"/>
-      <node ref="D4" pin="2"/>
+    <net code="11" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(D6-Pad2)">
-      <node ref="R12" pin="1"/>
-      <node ref="D6" pin="2"/>
+    <net code="12" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
     </net>
     <net code="13" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2"/>
-      <node ref="R6" pin="1"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="R4" pin="1"/>
+    <net code="14" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(C5-Pad1)">
-      <node ref="C6" pin="1"/>
-      <node ref="R10" pin="2"/>
-      <node ref="R8" pin="2"/>
-      <node ref="C5" pin="1"/>
-      <node ref="R4" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="R12" pin="2"/>
-      <node ref="R6" pin="2"/>
-      <node ref="R2" pin="2"/>
-      <node ref="J1" pin="1"/>
+    <net code="15" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(C3-Pad1)">
-      <node ref="C3" pin="1"/>
-      <node ref="H3" pin="1"/>
-    </net>
-    <net code="17" name="Net-(C2-Pad1)">
-      <node ref="C2" pin="1"/>
-      <node ref="H2" pin="1"/>
-    </net>
-    <net code="18" name="Net-(C1-Pad1)">
-      <node ref="C1" pin="1"/>
-      <node ref="H1" pin="1"/>
+    <net code="16" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
     </net>
   </nets>
 </export>
