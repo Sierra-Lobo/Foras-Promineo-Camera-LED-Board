@@ -1,0 +1,11 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C1","1n","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",-16.600000,39.350000,-90.000000,top
+"C2","1n","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",16.800000,39.350000,-90.000000,top
+"C5","10u","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",-8.600000,45.350000,90.000000,top
+"C6","1n","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",-6.500000,45.350000,90.000000,top
+"R2","100r","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",4.800000,40.200000,90.000000,top
+"R4","100r","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",7.200000,40.200000,90.000000,top
+"R6","100r","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",9.600000,40.200000,90.000000,top
+"R8","100r","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",-10.200000,40.150000,90.000000,top
+"R10","100r","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",-8.000000,40.150000,90.000000,top
+"R12","100r","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",-5.800000,40.150000,90.000000,top

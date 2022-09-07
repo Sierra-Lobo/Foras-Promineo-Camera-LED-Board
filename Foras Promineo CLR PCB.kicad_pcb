@@ -76,7 +76,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Fab Files/")
+      (outputdirectory "Fab Files/FM/")
     )
   )
 
@@ -6522,6 +6522,7 @@
     )
   )
 
+  (gr_rect (start 91.380005 71.390002) (end 98.009989 98.349994) (layer "B.SilkS") (width 0.254) (fill none) (tstamp f5c43e09-08d6-4a29-a53a-3b9ea7fb34cd))
   (gr_circle (center 94.73 66.55) (end 96.73 66.55) (layer "Eco1.User") (width 0.2) (fill none) (tstamp a3a4ba60-3271-4e9a-ba37-9a84bcaf9db5))
   (gr_circle (center 65.27 66.55) (end 67.27 66.55) (layer "Eco1.User") (width 0.2) (fill none) (tstamp ec5e2d7d-3bc6-4fcb-8261-5aceb45c3c19))
   (gr_circle (center 80 88.25) (end 92 88.25) (layer "Eco1.User") (width 0.05) (fill none) (tstamp f3c28ff0-c3be-47ce-bf6f-f3061324a07d))
@@ -6534,7 +6535,7 @@
   (gr_line (start 100 98) (end 100 62) (layer "Edge.Cuts") (width 0.1) (tstamp c8fda475-a48f-44dc-957f-bbaec0e7ed26))
   (gr_line (start 98 60) (end 62 60) (layer "Edge.Cuts") (width 0.1) (tstamp d98b6235-d1cc-45d4-874d-181d588f38aa))
   (gr_arc (start 98 60) (mid 99.414214 60.585786) (end 100 62) (layer "Edge.Cuts") (width 0.1) (tstamp f6d5f842-adbf-4421-bef6-b0ab3bd93c8f))
-  (gr_text "FORAS PROMINEO LED RING - CLR\nREV: FLIGHT\nNB, CK\n06/2022" (at 79.8 63.2) (layer "F.SilkS") (tstamp 462f3238-fbc0-42d6-b76e-a63d29cc32e1)
+  (gr_text "FORAS PROMINEO LED RING - CLR\nREV: FM\nNB, CK\n09/2022" (at 79.799993 63.200001) (layer "F.SilkS") (tstamp 462f3238-fbc0-42d6-b76e-a63d29cc32e1)
     (effects (font (size 0.75 0.75) (thickness 0.15)))
   )
 
