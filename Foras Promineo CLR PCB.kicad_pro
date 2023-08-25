@@ -525,7 +525,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "LED_Ring 8 18 23.step",
+      "step": "LED_Ring 8 25 23.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
