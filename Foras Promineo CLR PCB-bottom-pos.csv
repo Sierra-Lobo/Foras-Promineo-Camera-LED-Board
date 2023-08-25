@@ -1,0 +1,5 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"J1","Conn_01x10_Male","SAMTEC_T1M-05-X-DV",-0.775591,1.338583,0.000000,bottom
+"REF**","Fiducial_1mm_Mask3mm","Fiducial_1mm_Mask3mm",-0.078740,0.078740,180.000000,bottom
+"REF**","Fiducial_1mm_Mask3mm","Fiducial_1mm_Mask3mm",-1.417323,1.456693,180.000000,bottom
+"REF**","Fiducial_1mm_Mask3mm","Fiducial_1mm_Mask3mm",-0.078740,1.456693,180.000000,bottom
