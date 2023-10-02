@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>C:\Users\ckkornowski\Documents\GitHub\Foras-Promineo-Camera-LED-Board\Foras Promineo CLR PCB.kicad_sch</source>
-    <date>9/7/2022 9:29:32 AM</date>
-    <tool>Eeschema (6.0.2)</tool>
+    <date>9/8/2023 1:36:47 PM</date>
+    <tool>Eeschema 7.0.2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Foras Promineo LED Ring</title>
@@ -43,6 +43,8 @@
       <property name="Supplier Part Number" value="478-0603ZC102KAT2ACT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Capacitor symbol for simulation only"/>
+      <property name="ki_keywords" value="simulation"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000616e7a8a</tstamps>
     </comp>
@@ -65,6 +67,8 @@
       <property name="Supplier Part Number" value="478-0603ZC102KAT2ACT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Capacitor symbol for simulation only"/>
+      <property name="ki_keywords" value="simulation"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000616ee290</tstamps>
     </comp>
@@ -87,6 +91,8 @@
       <property name="Supplier Part Number" value="587-3238-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Capacitor symbol for simulation only"/>
+      <property name="ki_keywords" value="simulation"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000616b56f3</tstamps>
     </comp>
@@ -109,6 +115,8 @@
       <property name="Supplier Part Number" value="478-0603ZC102KAT2ACT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Capacitor symbol for simulation only"/>
+      <property name="ki_keywords" value="simulation"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000616c031a</tstamps>
     </comp>
@@ -131,6 +139,8 @@
       <property name="Supplier Part Number" value="1510-SPMWHD32AMH1XAH0S0CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000615f7d8f</tstamps>
     </comp>
@@ -153,6 +163,8 @@
       <property name="Supplier Part Number" value="1510-SPMWHD32AMH1XAH0S0CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000615df89b</tstamps>
     </comp>
@@ -175,6 +187,8 @@
       <property name="Supplier Part Number" value="1510-SPMWHD32AMH1XAH0S0CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000615f82a1</tstamps>
     </comp>
@@ -197,6 +211,8 @@
       <property name="Supplier Part Number" value="1510-SPMWHD32AMH1XAH0S0CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006169e050</tstamps>
     </comp>
@@ -219,6 +235,8 @@
       <property name="Supplier Part Number" value="1510-SPMWHD32AMH1XAH0S0CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006169e056</tstamps>
     </comp>
@@ -241,58 +259,31 @@
       <property name="Supplier Part Number" value="1510-SPMWHD32AMH1XAH0S0CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006169e044</tstamps>
-    </comp>
-    <comp ref="H1">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.5mm_Pad_Via</footprint>
-      <fields>
-        <field name="Description">no part</field>
-        <field name="Supplier">Digi-Key</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Description" value="no part"/>
-      <property name="Supplier" value="Digi-Key"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000616e42a6</tstamps>
-    </comp>
-    <comp ref="H2">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3.5mm_Pad_Via</footprint>
-      <fields>
-        <field name="Description">no part</field>
-        <field name="Supplier">Digi-Key</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Description" value="no part"/>
-      <property name="Supplier" value="Digi-Key"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000616ee284</tstamps>
     </comp>
     <comp ref="J1">
       <value>Conn_01x10_Male</value>
       <footprint>Foras_Promineo:SAMTEC_T1M-05-X-DV</footprint>
-      <datasheet>https://www.hirose.com/product/document?clcode=CL0536-0109-0-76&amp;productname=DF13-10P-1.25DSA(76)&amp;series=DF13&amp;documenttype=Catalog&amp;lang=en&amp;documentid=D31687_en</datasheet>
       <fields>
         <field name="Description">CONN HEADER VERT 10POS 1.25MM</field>
-        <field name="Manufacturer">Hirose Electric Co Ltd</field>
-        <field name="Manufacturer Part Number">DF13-10P-1.25DSA</field>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Manufacturer Part Number">T1M-05-GF-DV-K</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier Part Number">H2198-ND</field>
+        <field name="Supplier Part Number">SAM15304DKR-ND</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x10_Male" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Description" value="CONN HEADER VERT 10POS 1.25MM"/>
-      <property name="Manufacturer" value="Hirose Electric Co Ltd"/>
-      <property name="Manufacturer Part Number" value="DF13-10P-1.25DSA"/>
+      <property name="Manufacturer" value="Samtec"/>
+      <property name="Manufacturer Part Number" value="T1M-05-GF-DV-K"/>
       <property name="Supplier" value="Digi-Key"/>
-      <property name="Supplier Part Number" value="H2198-ND"/>
+      <property name="Supplier Part Number" value="SAM15304DKR-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006189f8b3</tstamps>
     </comp>
@@ -315,6 +306,8 @@
       <property name="Supplier Part Number" value="511-1731-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000616bd15c</tstamps>
     </comp>
@@ -337,6 +330,8 @@
       <property name="Supplier Part Number" value="511-1731-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000616bd5c1</tstamps>
     </comp>
@@ -359,6 +354,8 @@
       <property name="Supplier Part Number" value="511-1731-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00006168fc0e</tstamps>
     </comp>
@@ -381,6 +378,8 @@
       <property name="Supplier Part Number" value="511-1731-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000616bd8d2</tstamps>
     </comp>
@@ -403,6 +402,8 @@
       <property name="Supplier Part Number" value="511-1731-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000616bdc3b</tstamps>
     </comp>
@@ -425,6 +426,8 @@
       <property name="Supplier Part Number" value="511-1731-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Foras Promineo CLR PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-0000616be07c</tstamps>
     </comp>
@@ -519,16 +522,13 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
-    </library>
-    <library logical="pspice">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/pspice.kicad_sym</uri>
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -566,13 +566,35 @@
     </net>
     <net code="8" name="Net-(C1-Pad1)">
       <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
     </net>
     <net code="9" name="Net-(C2-Pad1)">
       <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
     </net>
-    <net code="10" name="Net-(C5-Pad1)">
+    <net code="10" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(J1-Pin_1)">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
@@ -583,30 +605,6 @@
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="R8" pin="2" pintype="passive"/>
-    </net>
-    <net code="11" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
-    </net>
-    <net code="12" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R4" pin="1" pintype="passive"/>
-    </net>
-    <net code="13" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-    </net>
-    <net code="14" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
-    </net>
-    <net code="15" name="Net-(D5-Pad2)">
-      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R10" pin="1" pintype="passive"/>
-    </net>
-    <net code="16" name="Net-(D6-Pad2)">
-      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R12" pin="1" pintype="passive"/>
     </net>
   </nets>
 </export>

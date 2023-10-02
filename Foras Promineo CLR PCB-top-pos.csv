@@ -15,6 +15,3 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "R8","100r","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",0.377953,1.118110,90.000000,top
 "R10","100r","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",0.464567,1.118110,90.000000,top
 "R12","100r","C_0603_1608Metric_Pad1.08x0.95mm_HandSolder",0.551181,1.118110,90.000000,top
-"REF**","Fiducial_1mm_Mask3mm","Fiducial_1mm_Mask3mm",0.078740,1.456693,-90.000000,top
-"REF**","Fiducial_1mm_Mask3mm","Fiducial_1mm_Mask3mm",1.417323,1.456693,-90.000000,top
-"REF**","Fiducial_1mm_Mask3mm","Fiducial_1mm_Mask3mm",0.078740,0.078740,-90.000000,top
